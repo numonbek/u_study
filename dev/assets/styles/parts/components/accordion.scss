@@ -1,0 +1,76 @@
+.accordion {
+  border: 1px solid $border-color;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    border-color: $logo-color;
+  }
+
+  &__block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 30px;
+
+    height: 104px;
+    overflow: hidden;
+    color: inherit;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: inherit;
+  }
+
+  &__title {
+    margin: 16.5px 0;
+    color: inherit;
+  }
+
+  &__lists {
+    color: inherit;
+  }
+
+  &__list {
+    color: inherit;
+  }
+
+  &__btn {
+    display: flex;
+    color: inherit;
+
+    &__block {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: inherit;
+
+      span:first-child {
+        width: 30px;
+        display: block;
+        background: white;
+        height: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      span:nth-child(2) {
+        width: 5px;
+        display: block;
+        background: white;
+        height: 30px;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+      }
+    }
+  }
+}

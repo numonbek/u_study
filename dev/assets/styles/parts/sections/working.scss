@@ -1,0 +1,31 @@
+.section {
+  &--working {
+
+  }
+}
+
+.working {
+  padding-bottom: 100px;
+
+  &__block {
+    display: grid;
+    gap: 55px;
+    text-align: center;
+  }
+
+  &__title {
+
+  }
+
+  &__lists {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 250px));
+    justify-content: center;
+  }
+
+  &__list {
+    //max-width: 250px;
+    //width: 100%;
+  }
+}

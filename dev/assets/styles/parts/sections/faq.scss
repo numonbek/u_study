@@ -1,0 +1,43 @@
+.section--faq {
+  background: linear-gradient(0deg, rgba(10, 13, 20, 0.91) 0%, rgba(10, 13, 20, 0.91) 100%), url('https://lifestyle.guranka.ru/assets/images/Articles/style_jizni/obrazovanie/za_graniceei/1.jpg'), lightgray 50% / cover no-repeat;
+  min-height: 1508px;
+  margin: 100px 0;
+  color: $white;
+}
+
+.faq {
+  padding: 69px 0 95px 0;
+  color: inherit;
+
+  &__block {
+    max-width: 1347px;
+    margin: 0 auto;
+    color: inherit;
+  }
+
+  &__lists {
+    display: grid;
+    gap: 30px;
+    margin-top: 30px;
+    color: inherit;
+  }
+
+  &__list {
+    color: inherit;
+  }
+
+  &__name {
+    color: $logo-color;
+  }
+
+  &__title {
+    color: inherit;
+  }
+
+  &__name, &__title {
+    text-align: center;
+    margin-top: 5px;
+    //color: inherit;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}

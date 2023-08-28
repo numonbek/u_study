@@ -1,0 +1,32 @@
+.check-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  &__title {
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+
+    &_text {
+    }
+  }
+
+  &_icon {
+    display: flex;
+
+    &-svg {
+    }
+  }
+}

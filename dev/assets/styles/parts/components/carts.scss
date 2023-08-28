@@ -1,0 +1,32 @@
+.carts {
+  display: grid;
+  gap: 40px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+  }
+
+  &__title {
+  }
+
+  &__btn {
+  }
+
+  &__block {
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 520px));
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__item {
+    max-width: 530px;
+  }
+}

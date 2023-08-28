@@ -1,0 +1,67 @@
+.section--main-banner {
+  color: $white;
+  position: relative;
+}
+
+.main-banner {
+  position: relative;
+  min-height: 658px;
+  align-items: center;
+  display: flex;
+  //position: relative;
+  color: $white;
+
+  &:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.6;
+  }
+
+  &__image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    object-position: center;
+    object-fit: cover;
+    color: inherit;
+  }
+
+  //background: linear-gradient(0deg, rgba(10, 13, 20, 0.91) 0%, rgba(10, 13, 20, 0.91) 100%), url('https://eng.ph-tour.ru/wp-content/uploads/2016/11/cheerful-students-walking-on-campus-m.jpg'), lightgray 50% / cover no-repeat;
+
+  &__block {
+    z-index: 2;
+    color: inherit;
+  }
+
+  &__container {
+    max-width: 658px;
+    display: grid;
+    gap: 18px;
+    color: inherit;
+  }
+
+  &__title {
+    color: inherit;
+  }
+
+  &__desc {
+    color: inherit;
+  }
+
+  &__btn {
+    .btn {
+      width: 158px;
+      height: 61px;
+    }
+  }
+}
