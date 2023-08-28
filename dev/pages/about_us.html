@@ -3,7 +3,7 @@
 
 <head>
     @include('./include/layouts/head.html', {
-    "title": "Countries"
+    "title": "About us"
     })
 </head>
 
@@ -11,20 +11,17 @@
 <div class="wrapper-page" data-smooth-scrolling="home">
     <!-- data-scrollbar -->
     @include('./include/layouts/header.html')
-    <main class="page main- page" data-page="page">
+    <main class="page about_us-page" data-page="page">
         <section class="section section--information-banner bg_cover">
             <div class="information-banner">
                 <div class="information-banner__title title_normal-bold size_max">
-                    Выбери страну мечты с нами
+                    О нас
                 </div>
                 <div class="information-banner__crumbs size_xx title_normal-bold">
                     @include('./include/components/crumbs.html')
                 </div>
             </div>
         </section>
-        <div class="line container">
-            <div class="line__item"></div>
-        </div>
         <section class="section section--about-company">
             <div class="about-company container">
                 <div class="about-company__block">
@@ -49,7 +46,7 @@
                                     <li class="check-list__item">
                                             <span class="check-list_icon square--31">
                                                 <svg class="check-list_icon-svg w-h-100">
-                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox"/>
+                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox-red"/>
                                                 </svg>
                                             </span>
                                         <span class="check-list__item_text title_normal size_xx">поступить в престижный зарубужный университет</span>
@@ -57,7 +54,7 @@
                                     <li class="check-list__item">
                                             <span class="check-list_icon square--31">
                                                 <svg class="check-list_icon-svg w-h-100">
-                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox"/>
+                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox-red"/>
                                                 </svg>
                                             </span>
                                         <span class="check-list__item_text title_normal size_xx">поступить в престижный зарубужный университет</span>
@@ -65,7 +62,7 @@
                                     <li class="check-list__item">
                                             <span class="check-list_icon square--31">
                                                 <svg class="check-list_icon-svg w-h-100">
-                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox"/>
+                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox-red"/>
                                                 </svg>
                                             </span>
                                         <span class="check-list__item_text title_normal size_xx">поступить в престижный зарубужный университет</span>
@@ -84,9 +81,11 @@
                 </div>
             </div>
         </section>
+
         <div class="line container">
             <div class="line__item"></div>
         </div>
+
         <section class="section section--working">
             <div class="working w-h-100 container">
                 <div class="working__block">
@@ -144,11 +143,121 @@
                 </div>
             </div>
         </section>
+
+        <section class="section section--our-advantages bg_cover">
+            <div class="our-advantages container">
+                <div class="our-advantages__block">
+                    <div class="our-advantages__title title_light-bold size_6x txt_al_center">
+                        Наши преимущества
+                    </div>
+                    <ul class="our-advantages__lists">
+                        <li class="our-advantages__list">
+                            <div class="cart-advantage">
+                                <div class="cart-advantage__block">
+                                    <div class="cart-advantage__icon">
+                                        <div class="square--116">
+                                            <svg class="cart-advantage__icon-svg w-h-100">
+                                                <use xlink:href="./assets/icons/sprite-svg.svg#advantage"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="cart-advantage__desc txt_al_center">
+                                        <span class="text_normal size_3x">Работаем со многими университетами и странами</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="our-advantages__list">
+                            <div class="cart-advantage">
+                                <div class="cart-advantage__block">
+                                    <div class="cart-advantage__icon">
+                                        <div class="square--116">
+                                            <svg class="cart-advantage__icon-svg w-h-100">
+                                                <use xlink:href="./assets/icons/sprite-svg.svg#advantage"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="cart-advantage__desc txt_al_center">
+                                        <span class="text_normal size_3x">Работаем со многими университетами и странами</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="our-advantages__list">
+                            <div class="cart-advantage">
+                                <div class="cart-advantage__block">
+                                    <div class="cart-advantage__icon">
+                                        <div class="square--116">
+                                            <svg class="cart-advantage__icon-svg w-h-100">
+                                                <use xlink:href="./assets/icons/sprite-svg.svg#advantage"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="cart-advantage__desc txt_al_center">
+                                        <span class="text_normal size_3x">Работаем со многими университетами и странами</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="our-advantages__list">
+                            <div class="cart-advantage">
+                                <div class="cart-advantage__block">
+                                    <div class="cart-advantage__icon">
+                                        <div class="square--116">
+                                            <svg class="cart-advantage__icon-svg w-h-100">
+                                                <use xlink:href="./assets/icons/sprite-svg.svg#advantage"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="cart-advantage__desc txt_al_center">
+                                        <span class="text_normal size_3x">Работаем со многими университетами и странами</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="our-advantages__list">
+                            <div class="cart-advantage">
+                                <div class="cart-advantage__block">
+                                    <div class="cart-advantage__icon">
+                                        <div class="square--116">
+                                            <svg class="cart-advantage__icon-svg w-h-100">
+                                                <use xlink:href="./assets/icons/sprite-svg.svg#advantage"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="cart-advantage__desc txt_al_center">
+                                        <span class="text_normal size_3x">Работаем со многими университетами и странами</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="our-advantages__list">
+                            <div class="cart-advantage">
+                                <div class="cart-advantage__block">
+                                    <div class="cart-advantage__icon">
+                                        <div class="square--116">
+                                            <svg class="cart-advantage__icon-svg w-h-100">
+                                                <use xlink:href="./assets/icons/sprite-svg.svg#advantage"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="cart-advantage__desc txt_al_center">
+                                        <span class="text_normal size_3x">Работаем со многими университетами и странами</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <section class="section section--feedback">
             <div class="feedback container">
                 <div class="feedback__block">
                     <div class="feedback__title title_light-bold size_6x">
-                        Будем на связи
+                        Не знаете с чего начать?
+                        <p class="feedback__desc title_normal size_xx"> Начните с консультации, свяжитесь с нами</p>
                     </div>
                     <div class="feedback__info">
                         <div class="feedback__item feedback__location">
@@ -204,50 +313,78 @@
         <div class="line container">
             <div class="line__item"></div>
         </div>
-        <section class="section section--faq bg_cover">
-            <div class="faq container">
-                <div class="faq__block">
-                    <div class="faq__name title_normal size_4x">FAQ</div>
-                    <div class="faq__title title_light-bold size_6x">Часто задаваемые вопросы</div>
-                    <ul class="faq__lists">
-                        <li class="faq__list">
-                            @include('./include/components/accordion.html')
+
+
+        <section class="section section--our-service">
+            <div class="our-service container">
+                <div class="our-service__block faq__block">
+                    <div class="our-service__title txt_al_center title_light-bold size_6x">Наши услуги</div>
+                    <ul class="our-service__lists faq__lists">
+                        <li class="our-service__list faq__list">
+                            @include('./include/components/accordion.html', {
+                            "btn-class":"bg_dark-blue"
+                            })
                         </li>
-                        <li class="faq__list">
-                            @include('./include/components/accordion.html')
+                        <li class="our-service__list faq__list">
+                            @include('./include/components/accordion.html', {
+                            "btn-class":"bg_dark-blue"
+                            })
                         </li>
-                        <li class="faq__list">
-                            @include('./include/components/accordion.html')
+                        <li class="our-service__list faq__list">
+                            @include('./include/components/accordion.html', {
+                            "btn-class":"bg_dark-blue"
+                            })
                         </li>
-                        <li class="faq__list">
-                            @include('./include/components/accordion.html')
+                        <li class="our-service__list faq__list">
+                            @include('./include/components/accordion.html', {
+                            "btn-class":"bg_dark-blue"
+                            })
                         </li>
-                        <li class="faq__list">
-                            @include('./include/components/accordion.html')
+                        <li class="our-service__list faq__list">
+                            @include('./include/components/accordion.html', {
+                            "btn-class":"bg_dark-blue"
+                            })
                         </li>
-                        <li class="faq__list">
-                            @include('./include/components/accordion.html')
+                        <li class="our-service__list faq__list">
+                            @include('./include/components/accordion.html', {
+                            "btn-class":"bg_dark-blue"
+                            })
                         </li>
-                        <li class="faq__list">
-                            @include('./include/components/accordion.html')
+                        <li class="our-service__list faq__list">
+                            @include('./include/components/accordion.html', {
+                            "btn-class":"bg_dark-blue"
+                            })
                         </li>
-                        <li class="faq__list">
-                            @include('./include/components/accordion.html')
+                        <li class="our-service__list faq__list">
+                            @include('./include/components/accordion.html', {
+                            "btn-class":"bg_dark-blue"
+                            })
                         </li>
-                        <li class="faq__list">
-                            @include('./include/components/accordion.html')
+                        <li class="our-service__list faq__list">
+                            @include('./include/components/accordion.html', {
+                            "btn-class":"bg_dark-blue"
+                            })
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <div class="line container">
-            <div class="line__item"></div>
-        </div>
-        <section class="section section--about-company">
+        <section class="section section--question">
+            <div class="question w-h-100 container">
+                <div class="question__form">
+                    @include('./include/components/form.html', {
+                    "title":"Остались вопросы?",
+                    "desc":"Ждем вас на консультации, оставить заявку",
+                    "title_class":"title_light-bold size_7x",
+                    "desc_class":"title_normal size_xx"
+                    })
+                </div>
+            </div>
+        </section>
+        <section class="section section--about-company section--about-company--reverse">
             <div class="about-company container">
-                <div class="about-company__block">
+                <div class="about-company__block block--reverse">
                     <div class="about-company__photo">
                         <img class="about-company__img w-h-100"
                              src="http://ohioinsureplan.com/wp-content/uploads/2018/04/Depositphotos_65548041_l-2015.jpg"
@@ -269,7 +406,7 @@
                                     <li class="check-list__item">
                                             <span class="check-list_icon square--31">
                                                 <svg class="check-list_icon-svg w-h-100">
-                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox"/>
+                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox-red"/>
                                                 </svg>
                                             </span>
                                         <span class="check-list__item_text title_normal size_xx">поступить в престижный зарубужный университет</span>
@@ -277,7 +414,7 @@
                                     <li class="check-list__item">
                                             <span class="check-list_icon square--31">
                                                 <svg class="check-list_icon-svg w-h-100">
-                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox"/>
+                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox-red"/>
                                                 </svg>
                                             </span>
                                         <span class="check-list__item_text title_normal size_xx">поступить в престижный зарубужный университет</span>
@@ -285,7 +422,7 @@
                                     <li class="check-list__item">
                                             <span class="check-list_icon square--31">
                                                 <svg class="check-list_icon-svg w-h-100">
-                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox"/>
+                                                     <use xlink:href="./assets/icons/sprite-svg.svg#checkbox-red"/>
                                                 </svg>
                                             </span>
                                         <span class="check-list__item_text title_normal size_xx">поступить в престижный зарубужный университет</span>
@@ -304,9 +441,6 @@
                 </div>
             </div>
         </section>
-        <div class="line container">
-            <div class="line__item"></div>
-        </div>
         <section class="section section--submission submission--gradient bg_cover">
             <div class="submission w-h-100 container">
                 <div class="submission__form">

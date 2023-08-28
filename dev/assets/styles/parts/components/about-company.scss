@@ -1,4 +1,17 @@
+.section--about-company {
+  &--reverse {
+    .about-company {
+      padding: 196px 0 286px 0;
+
+      &__info__btn {
+        display: none;
+      }
+    }
+  }
+}
+
 .about-company {
+
   &__block {
     max-width: 1345px;
     margin: 0 auto;
@@ -6,6 +19,10 @@
     gap: 40px;
     //flex-wrap: wrap;
     width: 100%;
+
+    //&--reverse {
+    //  flex-direction: row-reverse;
+    //}
   }
 
   &__photo {

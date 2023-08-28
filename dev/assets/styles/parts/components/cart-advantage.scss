@@ -1,0 +1,29 @@
+.cart-advantage {
+  width: 100%;
+  height: 100%;
+  color: inherit;
+
+  &__block {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    align-self: stretch;
+    border: 1px solid rgba(241, 244, 246, 0.24);
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(15px);
+    color: inherit;
+  }
+
+  &__icon {
+    color: inherit;
+  }
+
+  &__desc {
+    color: inherit;
+  }
+}

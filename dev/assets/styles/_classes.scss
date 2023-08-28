@@ -241,6 +241,29 @@
   }
 }
 
+.txt {
+  &_al_center {
+    text-align: center;
+  }
+}
+
+.bg {
+  &_white {
+    background-color: $white;
+  }
+
+  &_dark-blue {
+    background-color: $dark-blue;
+
+  }
+}
+
+.block{
+  &--reverse{
+    flex-direction: row-reverse;
+  }
+}
+
 //$size-min: 14px;
 //$size-max: 64px;
 //
