@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet">
+<link type="image/x-icon" href="./assets/static/favicon.ico" rel="shortcut icon">
+<link type="Image/x-icon" href="./assets/static/favicon.ico" rel="icon">
+<link rel="stylesheet" href="./assets/styles/main.min.css">
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<title>Countries</title>
+</head>
+
+<body>
+<div class="wrapper-page" data-smooth-scrolling="home">
+    <!-- data-scrollbar -->
+    <header class="header">
+    <div class="info">
+    <div class="info__block container">
+        <div class="info__item info__location">
+            <div class="tmp_info">
+    <div class="tmp_info__icon">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#location"/>
+    </svg>
+</div>
+    </div>
+    <div class="tmp_info__desc">
+        г. Ташкент, улица Навоий, 65
+    </div>
+</div>
+        </div>
+        <div class="info__item info__phone">
+            <div class="tmp_info">
+    <div class="tmp_info__icon">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#phone"/>
+    </svg>
+</div>
+    </div>
+    <div class="tmp_info__desc">
+        +998 90 000 11 22
+    </div>
+</div>
+        </div>
+        <div class="info__item info__location">
+            <div class="tmp_info">
+    <div class="tmp_info__icon">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#mail"/>
+    </svg>
+</div>
+    </div>
+    <div class="tmp_info__desc">
+        info@ustudent.uz
+    </div>
+</div>
+        </div>
+        <div class="info__item info__socials">
+            <div class="socials">
+    <div class="socials__item square--32">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#facebook"/>
+    </svg>
+</div>
+    </div>
+    <div class="socials__item square--32">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#instagram"/>
+    </svg>
+</div>
+    </div>
+    <div class="socials__item square--32">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#telegram"/>
+    </svg>
+</div>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+    <div class="header__container container">
+        <div class="header__logo">
+            <svg class="header__logo-svg w-h-100">
+                <use xlink:href="./assets/icons/sprite-svg.svg#logo"/>
+            </svg>
+        </div>
+        <div class="header__nav">
+            <nav class="nav">
+    <ul class="nav__block">
+        <li class="nav__item"><a class="nav__link" href="#">Главное</a></li>
+        <li class="nav__item"><a class="nav__link" href="/countries">Страны</a></li>
+        <li class="nav__item"><a class="nav__link" href="/about_university">Университеты</a></li>
+        <li class="nav__item"><a class="nav__link" href="/about_us">О нас</a></li>
+        <li class="nav__item"><a class="nav__link" href="/services">Наши услуги</a></li>
+        <li class="nav__item"><a class="nav__link" href="/grant">Гранты</a></li>
+        <li class="nav__item"><a class="nav__link" href="/news">Новости и полезное</a></li>
+    </ul>
+</nav>
+        </div>
+        <div class="header__lang">
+            <div class="lang">
+    <div class="lang-toggle">
+        <span class="lang__icon square--24">
+            <svg class="lang__icon-svg w-h-100">
+                <use xlink:href="./assets/icons/sprite-svg.svg#globe"/>
+            </svg>
+        </span>
+        <span class="lang__name">
+            Русский
+        </span>
+        <span class="lang__icon square--24">
+            <svg class="lang__icon w-h-100">
+                <use xlink:href="./assets/icons/sprite-svg.svg#arrow-down"/>
+            </svg>
+        </span>
+    </div>
+    <ul class="lang-menu">
+        <li class="lang-list"><a href="#">ru</a></li>
+        <li class="lang-list"><a href="#">eng</a></li>
+        <li class="lang-list"><a href="#">uzb</a></li>
+    </ul>
+</div>
+        </div>
+    </div>
+</header>
+    <main class="page main- page" data-page="page">
+        <section class="section section--information-banner bg_cover">
+            <div class="information-banner">
+                <div class="information-banner__title title_normal-bold size_max">
+                    Выбери страну мечты с нами
+                </div>
+                <div class="information-banner__crumbs size_xx title_normal-bold">
+                    <ul class="crumbs theme--inherit">
+    <li class="crumb theme--inherit">Главное</li>
+    <li class="crumb theme--inherit">Страны</li>
+</ul>
+                </div>
+            </div>
+        </section>
+        <section class="section section--submission submission--gradient bg_cover">
+            <div class="submission w-h-100 container">
+                <div class="submission__form">
+                    <form class="form" action="/" method="post">
+    <div class="form__title title_light-bold size_7x">Измени свою жизнь сейчас</div>
+    <div class="form__description title_normal size_xx">Остались вопросы? Запишитесь на консультацию, будем рады пообщаться с вами!</div>
+
+    <div class="form__input">
+        <label class="label label__input_text">
+    <input class="input" type="text" placeholder="Ваше имя" name="name">
+</label>
+        <label class="label label__input_text">
+    <input class="input" type="text" placeholder="Ваш номер" name="phone">
+</label>
+
+        <label class="label label__input_checkbox">
+            <span class="input_checkbox">
+                <input class="input input_checkbox" type="checkbox">
+            </span>
+            <span class="input_checkbox_desc text_normal size_min">Я согласен с тем, что мои данные собираются и будут храниться</span>
+        </label>
+
+        <button class="btn btn--theme--primary">
+    <span class="btn__text">Оставить заявку</span>
+</button>
+    </div>
+</form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+    <div class="footer__block container">
+        <div class="footer__left footer__company">
+            <div class="footer__company__logo header__logo">
+                <svg class="footer__company__logo-svg header__logo-svg w-h-100">
+                    <use xlink:href="./assets/icons/sprite-svg.svg#logo-white"/>
+                </svg>
+            </div>
+            <div class="footer__company__title">
+                Вас обслуживает OOO “uStudent Consult”
+            </div>
+            <div class="footer__company__inc">
+                <svg class="footer__company__inc-svg square--18">
+                    <use xlink:href="./assets/icons/sprite-svg.svg#inc"/>
+                </svg>
+                Все права защищены - 2023
+            </div>
+        </div>
+        <div class="footer__right">
+            <div class="footer__nav">
+                <nav class="nav">
+    <ul class="nav__block">
+        <li class="nav__item"><a class="nav__link" href="#">Главное</a></li>
+        <li class="nav__item"><a class="nav__link" href="/countries">Страны</a></li>
+        <li class="nav__item"><a class="nav__link" href="/about_university">Университеты</a></li>
+        <li class="nav__item"><a class="nav__link" href="/about_us">О нас</a></li>
+        <li class="nav__item"><a class="nav__link" href="/services">Наши услуги</a></li>
+        <li class="nav__item"><a class="nav__link" href="/grant">Гранты</a></li>
+        <li class="nav__item"><a class="nav__link" href="/news">Новости и полезное</a></li>
+    </ul>
+</nav>
+            </div>
+            <div class="footer__info">
+                <div class="footer__info__item info__location">
+                    <div class="tmp_info">
+    <div class="tmp_info__icon">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#location"/>
+    </svg>
+</div>
+    </div>
+    <div class="tmp_info__desc">
+        г. Ташкент, улица Навоий, 65
+    </div>
+</div>
+                </div>
+                <div class="footer__info__item info__phone">
+                    <div class="tmp_info">
+    <div class="tmp_info__icon">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#phone"/>
+    </svg>
+</div>
+    </div>
+    <div class="tmp_info__desc">
+        +998 90 000 11 22
+    </div>
+</div>
+                </div>
+                <div class="footer__info__item info__location">
+                    <div class="tmp_info">
+    <div class="tmp_info__icon">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#mail"/>
+    </svg>
+</div>
+    </div>
+    <div class="tmp_info__desc">
+        info@ustudent.uz
+    </div>
+</div>
+                </div>
+            </div>
+            <div class="footer__socials">
+                <div class="footer__socials__title">Мы в соц сетях</div>
+                <div class="socials">
+    <div class="socials__item square--32">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#facebook"/>
+    </svg>
+</div>
+    </div>
+    <div class="socials__item square--32">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#instagram"/>
+    </svg>
+</div>
+    </div>
+    <div class="socials__item square--32">
+        <div class="round">
+    <svg class="round__back w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#social-back"/>
+    </svg>
+    <svg class="round__center w-h-100">
+        <use xlink:href="./assets/icons/sprite-svg.svg#telegram"/>
+    </svg>
+</div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="./assets/scripts/libs.min.js"></script>
+<script src="./assets/scripts/main.min.js"></script>
+</div>
+</body>
+
+</html>
