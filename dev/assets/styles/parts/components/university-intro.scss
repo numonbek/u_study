@@ -1,0 +1,20 @@
+.university-intro {
+  min-height: 760px;
+  padding: 50px;
+  background: $light-back;
+
+  &__block {
+    display: grid;
+    gap: 30px;
+  }
+
+  &__logo {
+    width: 243px;
+    height: 124px;
+
+    &-img {
+      mix-blend-mode: darken;
+      //background: url('https://www.ucsiuniversity.edu.my/sites/default/files/ucsi_logo_box.jpg'), lightgray 0.872px -56.628px / 100% 195.968% no-repeat;
+    }
+  }
+}

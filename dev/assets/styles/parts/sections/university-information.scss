@@ -1,0 +1,23 @@
+.section--university-information {
+  padding: 80px 0;
+}
+
+.university-information {
+  &__block {
+    gap: 33px;
+    display: flex;
+  }
+
+  &__left {
+    max-width: 658px;
+    width: 100%;
+  }
+
+  &__right {
+    display: grid;
+    width: 100%;
+    gap: 50px;
+  }
+
+
+}
