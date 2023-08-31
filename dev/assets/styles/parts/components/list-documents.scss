@@ -1,0 +1,38 @@
+.section--list-documents {
+  padding: 139px 0 120px 0;
+}
+
+.list-documents {
+  &__block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    min-height: 499px;
+  }
+
+  &__img {
+    object-fit: contain;
+  }
+
+  &__left {
+
+  }
+
+  &__right {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  &__title {
+
+  }
+
+  &__lists {
+
+  }
+
+  &__list {
+
+  }
+}
