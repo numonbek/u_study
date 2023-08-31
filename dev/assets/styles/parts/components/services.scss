@@ -76,6 +76,10 @@
       //left: 73px;
       //border: 10px;
       //bottom: 10px;
+
+      & div, span {
+        color: inherit;
+      }
     }
 
     &__photo {
