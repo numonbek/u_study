@@ -1,0 +1,47 @@
+.section--country-shortly-info {
+  background: linear-gradient(0deg, rgba(14, 23, 42, 0.85) 0%, rgba(14, 23, 42, 0.85) 100%), url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/PETRONAS_TWIN_TOWER_AZ.jpg/1280px-PETRONAS_TWIN_TOWER_AZ.jpg'), lightgray 50% / cover no-repeat;
+  color: $white;
+}
+
+.country-shortly-info {
+  color: inherit;
+
+  div, span, p, ol, ul, li {
+    color: inherit;
+  }
+
+  &__block {
+    display: grid;
+    height: 100%;
+    min-height: 566px;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__right {
+
+    position: relative;
+
+  }
+
+  &__title {
+
+  }
+
+  &__img {
+    height: 800px;
+    width: 1000px;
+    position: absolute;
+    bottom: -282px;
+  }
+}

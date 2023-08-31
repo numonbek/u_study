@@ -83,6 +83,10 @@
     width: 116px;
     height: 116px;
   }
+  &--266 {
+    width: 266px;
+    height: 266px;
+  }
 }
 
 .size {
@@ -121,9 +125,23 @@
   &_7x {
     font-size: $size-7x
   }
+
+  &_8x {
+    font-size: $size-8x
+  }
+
+  &_9x {
+    font-size: $size-9x
+  }
 }
 
 .text {
+  &_light_normal {
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
   &_normal {
     font-style: normal;
     font-weight: 400;
@@ -176,12 +194,15 @@
 }
 
 .weight {
+  &_light_normal {
+    font-weight: 300;
+  }
   &_normal {
-    font-weight: 600;
+    font-weight: 400;
   }
 
   &_normal-bold {
-    font-weight: 600;
+    font-weight: 500;
   }
 
   &_light-bold {
@@ -189,7 +210,7 @@
   }
 
   &_bold {
-    font-weight: 600;
+    font-weight: 700;
   }
 }
 
@@ -217,6 +238,9 @@
   &_4x {
     line-height: $size-4x
   }
+  &_4xxx {
+    line-height: $size-4xxx
+  }
 
   &_5x {
     line-height: $size-5x
@@ -232,6 +256,10 @@
 
   &_7x {
     line-height: $size-7x
+  }
+
+  &_8x {
+    line-height: $size-8x
   }
 }
 
