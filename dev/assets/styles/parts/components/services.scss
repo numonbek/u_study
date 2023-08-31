@@ -5,8 +5,9 @@
 .services {
 
   &__item {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-areas: 'a b';
+    grid-template-columns: 1fr 1fr;
     gap: 30px;
     align-items: center;
 
@@ -16,21 +17,46 @@
 
     &:nth-child(2n) {
       flex-direction: row-reverse;
+      grid-template-areas: 'b a';
 
       .services__item__number {
         background-color: $logo-color;
       }
+
+      .services__item__right {
+        justify-content: end;
+      }
+
+      .services__item__left {
+        margin: 0 auto;
+      }
     }
 
     &__left {
+      grid-area: a;
       display: flex;
       gap: 30px;
       flex-direction: column;
+
+      padding-left: 61px;
+      max-width: 520px;
+      width: 100%;
+
+      justify-content: center;
+      height: 100%;
+      //margin: 0 auto;
+
+      &__block {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+      }
     }
 
     &__right {
+      grid-area: b;
       display: flex;
-      justify-content: end;
+      justify-content: start;
     }
 
     &__number {
