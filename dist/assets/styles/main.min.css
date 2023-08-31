@@ -386,8 +386,8 @@ template {
 }
 
 .size_max {
-  font-size: calc(64px + 38 * ((100vw - 320px) / 1300));
-  /* font-size: 64px; */
+  /* font-size: calc(64px + 38 * ((100vw - 320px) / 1300)); */
+  font-size: 64px;
 }
 .size_min {
   font-size: 14px;
@@ -627,7 +627,7 @@ template {
 .working__lists {
   display: -ms-grid;
   display: grid;
-  gap: 20px;
+  gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(100px, 250px));
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -1329,6 +1329,11 @@ a {
   min-height: 705px;
   border: 1px solid #C3D1DC;
   cursor: pointer;
+  transition: 0.4s all;
+  -webkit-transition: 0.4s all;
+  -moz-transition: 0.4s all;
+  -ms-transition: 0.4s all;
+  -o-transition: 0.4s all;
 }
 .cart__bottom {
   display: -ms-grid;
@@ -1358,6 +1363,7 @@ a {
   border: #FFF;
   -webkit-box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.15);
   box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
 }
 
 .carts {
