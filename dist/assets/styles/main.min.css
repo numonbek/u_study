@@ -370,6 +370,7 @@ template {
   width: 100%;
   max-width: 1620px;
   margin: 0 auto;
+  padding: 0 32px;
 }
 
 .theme--inherit {
@@ -909,7 +910,7 @@ a {
   background: linear-gradient(0deg, rgba(10, 13, 20, 0.8) 0%, rgba(10, 13, 20, 0.8) 100%), url("https://static.r-express.ru/images/AdobeStock_245480959.jpeg"), lightgray 0.004px -542.288px/100% 289.16% no-repeat;
 }
 .section .popular-countries {
-  padding: 100px 0;
+  padding: 100px 50px;
 }
 
 .available-countries {
@@ -1693,7 +1694,7 @@ a {
 }
 
 .service {
-  padding: 80px 0;
+  padding: 80px 30px;
 }
 .service__block {
   display: -webkit-box;
