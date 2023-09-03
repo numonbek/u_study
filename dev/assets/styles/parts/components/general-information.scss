@@ -1,0 +1,73 @@
+.section--general-information {
+  position: relative;
+  color: $white;
+
+  &:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: $fade-black;
+    opacity: 0.85;
+    z-index: -1;
+    //background: linear-gradient(0deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 100%), lightgray 0px -548px / 100% 209.176% no-repeat;
+  }
+
+  &__img {
+    position: absolute;
+    object-fit: cover;
+    z-index: -2;
+  }
+}
+
+.general-information {
+  width: 100%;
+  height: 100%;
+  min-height: 612px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: inherit;
+
+  &__block {
+    display: grid;
+    gap: 70px;
+    text-align: center;
+    color: inherit;
+    margin: 67px 0 77px 0;
+  }
+
+  &__title {
+    color: inherit;
+  }
+
+  &__lists {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(301px, 1fr));
+    gap: 30px;
+    color: inherit;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  &__icon {
+    color: inherit;
+  }
+
+  &__key {
+    color: inherit;
+  }
+
+  &__value {
+    color: $logo-color;
+  }
+}

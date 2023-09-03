@@ -7,7 +7,7 @@
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
-  &__text{
+  &__text {
     color: inherit;
   }
 
@@ -25,7 +25,7 @@
         background: $white;
       }
 
-      &:active{
+      &:active {
         box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
       }
 
@@ -43,7 +43,38 @@
         background: $logo-color;
       }
 
-      &:active{
+      &:active {
+        box-shadow: 0px 5px 10px 2px rgba(248, 123, 128, 0.2) inset;
+      }
+    }
+
+    &--gray {
+      height: 100%;
+      padding: 10px;
+      border-radius: 50px;
+      background: rgba(44, 58, 90, 0.13);
+      border: 0;
+
+      &_active {
+        background: rgba(248, 123, 128, 0.13);
+        color: $logo-color;
+      }
+
+      .btn__text {
+        color: inherit;
+        text-align: center;
+        font-size: $size-5x;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+
+      &:hover {
+        color: $logo-color;
+        background: rgba(248, 123, 128, 0.13);
+      }
+
+      &:active {
         box-shadow: 0px 5px 10px 2px rgba(248, 123, 128, 0.2) inset;
       }
     }

@@ -1,0 +1,10 @@
+.section--about-study {
+}
+
+.about-study {
+  &__left {
+    &__img {
+      object-fit: cover;
+    }
+  }
+}
