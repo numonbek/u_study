@@ -1,5 +1,8 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../:\#1Developer\Open server\OSPanel\domains\student.loc\.idea/dataSources/
+/dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
